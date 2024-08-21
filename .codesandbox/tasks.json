@@ -1,0 +1,23 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "test:globals": {
+      "name": "test:globals",
+      "command": "npm run test:globals",
+      "runAtStart": false
+    },
+    "test:no-globals": {
+      "name": "test:no-globals",
+      "command": "npm run test:no-globals",
+      "runAtStart": false
+    }
+  }
+}
